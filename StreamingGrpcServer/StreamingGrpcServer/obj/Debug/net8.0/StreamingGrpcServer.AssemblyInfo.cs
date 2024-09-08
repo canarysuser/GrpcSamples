@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("778596f3-69dc-4294-bf03-da560a478845")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamingGrpcServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fca8ca0e6790de3ba3daf71f4ab4d80c748b5ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamingGrpcServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamingGrpcServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

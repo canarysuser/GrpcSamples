@@ -8,7 +8,8 @@ namespace StreamingGrpcClient
     {
         static async Task Main(string[] args)
         {
-            using var channel = GrpcChannel.ForAddress("https://localhost:7005");
+            //using var channel = GrpcChannel.ForAddress("https://localhost:7005");
+            using var channel = GrpcChannel.ForAddress("https://40.78.194.97:8585");
             var client = new ProductService.ProductServiceClient(channel);
 
             while (true)
@@ -56,11 +57,22 @@ namespace StreamingGrpcClient
 
             static async Task UnaryGetProductListing(ProductService.ProductServiceClient client)
             {
-                var result = await client.UnaryProductListingAsync(new Google.Protobuf.WellKnownTypes.Empty());
-                foreach (var product in result.Products)
+                try
                 {
-                    Console.WriteLine($"{product.ProductId}, {product.ProductName}");
+                    var result = await client.UnaryProductListingAsync(new Google.Protobuf.WellKnownTypes.Empty());
+                    foreach (var product in result.Products)
+                    {
+                        Console.WriteLine($"{product.ProductId}, {product.ProductName}");
+                    }
                 }
+                catch (RpcException rpce1) when (rpce1.StatusCode == StatusCode.DeadlineExceeded)
+                {
+                    Console.WriteLine("Error: Deadline exceeded");
+                }
+                catch (RpcException rpce2) when (rpce2.StatusCode == StatusCode.Unknown)
+                {
+                    Console.WriteLine("Error: Unknown error, {0}", rpce2.Message);
+                } catch (Exception e) {  Console.WriteLine(e.Message); }
             }
             static async Task UnaryGetProductDetails(ProductService.ProductServiceClient client)
             {

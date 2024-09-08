@@ -19,3 +19,4 @@ D:\DownloadsFolder\Samples\GrpcStreamsSample\StreamingGrpcClient\StreamingGrpcCl
 D:\DownloadsFolder\Samples\GrpcStreamsSample\StreamingGrpcClient\StreamingGrpcClient\obj\Debug\net8.0\StreamingGrpcClient.pdb
 D:\DownloadsFolder\Samples\GrpcStreamsSample\StreamingGrpcClient\StreamingGrpcClient\obj\Debug\net8.0\StreamingGrpcClient.genruntimeconfig.cache
 D:\DownloadsFolder\Samples\GrpcStreamsSample\StreamingGrpcClient\StreamingGrpcClient\obj\Debug\net8.0\ref\StreamingGrpcClient.dll
+D:\DownloadsFolder\Samples\GrpcStreamsSample\StreamingGrpcClient\StreamingGrpcClient\obj\Debug\net8.0\StreamingGrpcClient.sourcelink.json

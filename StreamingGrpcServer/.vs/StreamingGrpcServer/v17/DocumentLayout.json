@@ -11,11 +11,15 @@
       "RelativeMoniker": "D:0:0:{AE624D49-A9E3-4665-8724-CA4224B52A87}|StreamingGrpcServer\\StreamingGrpcServer.csproj|solutionrelative:streaminggrpcserver\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AE624D49-A9E3-4665-8724-CA4224B52A87}|StreamingGrpcServer\\StreamingGrpcServer.csproj|d:\\downloadsfolder\\samples\\grpcstreamssample\\streaminggrpcserver\\streaminggrpcserver\\services\\productsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE624D49-A9E3-4665-8724-CA4224B52A87}|StreamingGrpcServer\\StreamingGrpcServer.csproj|solutionrelative:streaminggrpcserver\\services\\productsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE624D49-A9E3-4665-8724-CA4224B52A87}|StreamingGrpcServer\\StreamingGrpcServer.csproj|d:\\downloadsfolder\\samples\\grpcstreamssample\\protos\\products.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE624D49-A9E3-4665-8724-CA4224B52A87}|StreamingGrpcServer\\StreamingGrpcServer.csproj|d:\\downloadsfolder\\samples\\grpcstreamssample\\streaminggrpcserver\\streaminggrpcserver\\services\\productsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE624D49-A9E3-4665-8724-CA4224B52A87}|StreamingGrpcServer\\StreamingGrpcServer.csproj|solutionrelative:streaminggrpcserver\\services\\productsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE624D49-A9E3-4665-8724-CA4224B52A87}|StreamingGrpcServer\\StreamingGrpcServer.csproj|d:\\downloadsfolder\\samples\\grpcstreamssample\\streaminggrpcserver\\streaminggrpcserver\\streaminggrpcserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE624D49-A9E3-4665-8724-CA4224B52A87}|StreamingGrpcServer\\StreamingGrpcServer.csproj|solutionrelative:streaminggrpcserver\\streaminggrpcserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sudhir\\.nuget\\packages\\grpc.tools\\2.57.0\\build\\_protobuf\\Google.Protobuf.Tools.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -28,7 +32,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,6 +49,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "StreamingGrpcServer.csproj",
+              "DocumentMoniker": "D:\\DownloadsFolder\\Samples\\GrpcStreamsSample\\StreamingGrpcServer\\StreamingGrpcServer\\StreamingGrpcServer.csproj",
+              "RelativeDocumentMoniker": "StreamingGrpcServer\\StreamingGrpcServer.csproj",
+              "ToolTip": "D:\\DownloadsFolder\\Samples\\GrpcStreamsSample\\StreamingGrpcServer\\StreamingGrpcServer\\StreamingGrpcServer.csproj",
+              "RelativeToolTip": "StreamingGrpcServer\\StreamingGrpcServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-06T06:57:51.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Google.Protobuf.Tools.targets",
               "DocumentMoniker": "C:\\Users\\Sudhir\\.nuget\\packages\\grpc.tools\\2.57.0\\build\\_protobuf\\Google.Protobuf.Tools.targets",
               "ToolTip": "C:\\Users\\Sudhir\\.nuget\\packages\\grpc.tools\\2.57.0\\build\\_protobuf\\Google.Protobuf.Tools.targets",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "products.proto",
               "DocumentMoniker": "D:\\DownloadsFolder\\Samples\\GrpcStreamsSample\\Protos\\products.proto",
               "RelativeDocumentMoniker": "..\\Protos\\products.proto",
@@ -62,7 +79,8 @@
               "RelativeToolTip": "..\\Protos\\products.proto",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2024-09-03T02:55:22.979Z"
+              "WhenOpened": "2024-09-03T02:55:22.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,14 +90,14 @@
               "RelativeDocumentMoniker": "StreamingGrpcServer\\Program.cs",
               "ToolTip": "D:\\DownloadsFolder\\Samples\\GrpcStreamsSample\\StreamingGrpcServer\\StreamingGrpcServer\\Program.cs",
               "RelativeToolTip": "StreamingGrpcServer\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA9AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAD4vxUAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T14:41:22.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductsDbContext.cs",
               "DocumentMoniker": "D:\\DownloadsFolder\\Samples\\GrpcStreamsSample\\StreamingGrpcServer\\StreamingGrpcServer\\Services\\ProductsDbContext.cs",
               "RelativeDocumentMoniker": "StreamingGrpcServer\\Services\\ProductsDbContext.cs",
@@ -87,7 +105,8 @@
               "RelativeToolTip": "StreamingGrpcServer\\Services\\ProductsDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T14:38:50.157Z"
+              "WhenOpened": "2024-09-02T14:38:50.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,7 +116,7 @@
               "RelativeDocumentMoniker": "StreamingGrpcServer\\Services\\ProductService.cs",
               "ToolTip": "D:\\DownloadsFolder\\Samples\\GrpcStreamsSample\\StreamingGrpcServer\\StreamingGrpcServer\\Services\\ProductService.cs",
               "RelativeToolTip": "StreamingGrpcServer\\Services\\ProductService.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAowGAAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T14:36:20.152Z",
               "EditorCaption": ""
